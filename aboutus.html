@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"  />
+
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
+
+
+ 
+
+<style>
+*{ margin: 0; padding: 0;  box-sizing: border-box; font-family: 'Josefin Sans', sans-serif;}
+  /* Make the image fully responsive */
+  
+
+.socialicon{
+  margin-top: 50px;
+  margin-left: 800px;
+}
+
+
+
+
+
+
+
+
+  gallery
+
+
+  * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+   transition: background-color 0.6s ease;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.3s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+ 
+section counter
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+  margin-top: 5%;
+}
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 90%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card00 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fd7e14;
+  color: #fff;
+}
+
+
+.card01 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #28a745;
+  color:  #343a40;
+}
+
+.card02 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffc107;
+  color:  #dc3545;
+}
+
+.card03 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #dc3545;
+  color: #fff;
+}
+.fa {font-size:50px;}
+
+
+.container-fluid1{
+width: 100%;
+height: 100%;
+justify-content: center;
+overflow: hidden;
+
+
+}
+#slideshow { 
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 2px;
+    position: relative; 
+   width: 98%;
+  height: 400px;
+
+    
+}
+
+#slideshow > div { 
+
+    position: absolute; 
+    top: 10px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+ #slideshow > div img { 
+ width: 98%;
+  height: 98%;
+
+    position: absolute; 
+    top: 1px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+
+
+.container-fluid2{
+width: 100%;
+height: 100%;
+justify-content: center;
+overflow: hidden;
+
+
+}
+
+
+#slideshow1 { 
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 2px;
+    position: relative; 
+   width: 98%;
+  height: 400px;
+
+    
+}
+
+#slideshow1 > div { 
+
+    position: absolute; 
+    top: 10px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+ #slideshow1 > div img { 
+ width: 98%;
+  height: 98%;
+
+    position: absolute; 
+    top: 1px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+.container-fluid3{
+width: 100%;
+height: 100%;
+justify-content: center;
+overflow: hidden;
+
+
+}
+
+
+#slideshow2 { 
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 2px;
+    position: relative; 
+   width: 98%;
+  height: 400px;
+
+    
+}
+
+#slideshow2 > div { 
+
+    position: absolute; 
+    top: 10px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+ #slideshow2 > div img { 
+ width: 98%;
+  height: 98%;
+
+    position: absolute; 
+    top: 1px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+
+.container-fluid3{
+width: 100%;
+height: 100%;
+justify-content: center;
+overflow: hidden;
+
+
+}
+
+
+#slideshow3 { 
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 2px;
+    position: relative; 
+   width: 98%;
+  height: 400px;
+
+    
+}
+
+#slideshow3 > div { 
+
+    position: absolute; 
+    top: 10px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+ #slideshow3 > div img { 
+ width: 98%;
+  height: 98%;
+
+    position: absolute; 
+    top: 1px; 
+    left:10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.socialicon{
+  margin-left: 45%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.fab {
+  
+  font-size: 30px;
+ 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fab:hover {
+    opacity: 0.5;
+}
+
+
+
+
+.container-fluide{
+  background-color: rgb(27,31,34,0.85);
+  justify-content: center;
+}
+
+.h2{
+
+  font-size: 2.1rem;
+  line-height: 1.4;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+
+.maindiv{
+  width: 98%;
+  height: 400px;
+  position: relative;
+  left: 15%;
+  top: 10%;
+  transform: translate(-20%, -10%);
+  background-image: url(https://1.bp.blogspot.com/-_LDaTRxdOG8/XqxDdHgO7dI/AAAAAAAAAiI/6YHLMKa5nuM8WlfkIMr0jUfKB-QlvczngCLcBGAsYHQ/s1600/a1.png);
+  background-size: 100% 100%;
+  
+  animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+  0%{ background-image: url(https://1.bp.blogspot.com/-_LDaTRxdOG8/XqxDdHgO7dI/AAAAAAAAAiI/6YHLMKa5nuM8WlfkIMr0jUfKB-QlvczngCLcBGAsYHQ/s1600/a3.png);
+   }
+
+   35%{ background-image: url(https://1.bp.blogspot.com/-xfUrgxY5gJA/XqxDbsE7LxI/AAAAAAAAAiE/QSy2QdYXv4ohXajxefgjLlD7dU1tv6JawCLcBGAsYHQ/s1600/a2.png);
+  
+}
+75%{ background-image: url(https://1.bp.blogspot.com/-YgmJc0KnTQY/XqxDblYNk6I/AAAAAAAAAiA/TEvqT-9WpIEvX6lK5wzP0ftLKpyqrnUBQCLcBGAsYHQ/s1600/a1.png);
+  
+}
+
+
+
+
+
+  </style>
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+
+  <a class="navbar-brand" href="#"> <img src="logo.png" style="height: 50px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+           <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="prod.html">Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="aboutus.html">About Us <span class="sr-only">(aboutus.html)</span> </a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link " href="contact us.html">Contact Us</a>
+      </li>
+    </ul>
+   
+    </form>
+  </div>
+</nav>
+
+
+
+<section class="my-5"  >
+ 
+  
+<div class="container-fluid w3-light-grey" class="row ">
+  <div class="column ">
+    <div class="card00 mt-5 mb-5">
+      <p><i class="fa fa-industry"></i></p>
+      <h3>Innovative</h3>
+      <p>Chivda Manufactureing</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card01 mt-5 mb-5">
+      <p><i class="fa fa-check"></i></p>
+      <h3>12 Flavors</h3>
+      <p>Done</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card02 mt-5 mb-5">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h3>Happy Clients</h3>
+      <p>Because It's Healthy</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card03 mt-5  mb-5">
+      <p><i class="fa fa-city"></i></p>
+      <h3>Just Few Days</h3>
+      <p>Available In All-City</p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<section>
+
+    <div  class="py-5">
+    <h2 class="text-center">About Us</h2>
+    <hr class="w-25 mx-auto pb-2">
+    </div>
+
+</section>
+ 
+
+
+
+
+
+
+
+<div class="container-fluid w3-lime">
+    <div class="row mb-2">
+      <div class="col-lg-6 col-md-6 col-xs-6 w3-lime ">
+
+<div class="slideshow-container ">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="2.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="4.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="3.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="1.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div style="text-align: center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+   <span class="dot"></span> 
+</div>
+
+     
+      </div>
+    </div>
+   
+
+          <div class="col-lg-6 col-md-6 col-xs-6 w3-lime">
+            <div class="text-congainer pt-5 " >
+        <h2 class="display-4  " style="font-family: 'Lalezar', cursive; text-align: center  ">A Rich Food Culture</h2>
+        <p class="py-2 pl-2">India is a diverse, rich, and prosperous country. Among the richness of Indian culture, there was not only architecture, not only art and drama, not only science, not only spiritually, but also a rich food culture. Of course, all the organs of life were perfect. Our diet was written by our ancestors a few thousand years ago. This is wonderful.</p>
+        <p>Spices like black pepper, cinnamon, bay leaf, coriander, etc. were invented by Indians thousands of years ago. Later, with the help of these spices, different foods were made in India according to different geographical regions. These foods were extremely tasty. So even a few thousand years ago, foreign travelers were fascinated by our Indian cuisine.</p>
+       
+       <h6  style="font-size: 200%">By studying this, we have brought to you 12 flavors of traditional and modern tasty, nutritious Anantakoti Paratha Chivda...</h6>
+       </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid3 mb-2  w3-light-grey">
+  <div class="row">
+
+    <div class="col-lg-6 col-md-6 col-xs-6 ">
+<div id="slideshow3">
+
+
+   <div>
+     <img src="a1.png" style="height: 450px">
+   </div>
+
+
+   <div>
+     <img src="a3.png" style="height: 450px">
+   </div>
+
+
+   <div>
+      <img src="a2.png" style="height: 450px">
+   </div>
+
+
+
+
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6 col-xs-6  w3-light-grey">
+            <div class="text-congainer pt-5 " >
+        <h2 class="display-4  " style="font-family: 'Lalezar', cursive; text-align: center  ">2014</h2>
+        <p class="py-2 pl-2">Anantkoti Enterprises was started from home in 2014. Initially the situation was very different as there was no material so I had to knead the flour by hand, cut, fry in a small basket as there was no pan for frying, I was using the stove as there was no grate.
+</p>
+
+<p>We started our business with few resources, meager manpower, a shaky financial situation, and a lot of dreams in mind. From the name of the industry to the present day, we were faced with different challenges step by step and we were making our way through it, feeling, learning...
+ </p>
+        
+
+       
+       <h6  style=" text-align: center;   font-size: 200% "> " Why not at the speed of a tortoise but walking."</h6>
+       </div>
+ </div>  
+
+
+
+</div>
+</div>
+
+
+  
+
+<div class="container-fluid mb-2 w3-brown">
+  <div class="row">
+
+
+    <div class="col-lg-4 col-md-4 col-xs-6">
+      <div class="card mt-5">
+        <img src="b1.png" style="height: 400px">
+        </div>
+      </div>
+
+         <div class="col-lg-4 col-md-4 col-xs-6">
+        <div class="card mt-5">
+        <img src="b2.png" style="height: 400px">
+      </div>
+    </div>
+
+     <div class="col-lg-4 col-md-4 col-xs-6 mb-5">
+        <div class="card mt-5">
+        <img src="b3.png" style="height: 400px">
+                </div>
+              </div>
+
+
+  
+               <div class="col-lg-12 col-md-12 col-xs-12">
+                <h2 class="display-4 pt-3 " style="font-family: 'Lalezar', cursive; text-align: center  ">2016-17</h2>
+
+    <h3 class="mb-5" style=" text-align: center ">In 2017, we got an inspiration to go out of the house and take the machine to grow the industry and find the necessary licenses, logos, names, and space for the machine. We succeeded in trying to improve the quality. Then we bought machines for all the work of frying, rolling, kneading flour.
+</h3>
+</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container-fluid1 mb-2 w3-amber">
+  <div class="row">
+
+    <div class="col-lg-6 col-md-6 col-xs-6 ">
+<div id="slideshow">
+
+
+   <div>
+     <img src="c1.png" style="height: 450px">
+   </div>
+
+
+   <div>
+     <img src="c3.png" style="height: 450px">
+   </div>
+
+
+   <div>
+      <img src="c2.png" style="height: 450px">
+   </div>
+
+
+<div>
+      <img src="c4.png" style="height: 450px">
+   </div>
+
+
+<div>
+      <img src="c5.png" style="height: 450px">
+   </div>
+
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6 col-xs-6 w3-amber">
+            <div class="text-congainer pt-5 " >
+        <h2 class="display-4  " style="font-family: 'Lalezar', cursive; text-align: center  ">2018</h2>
+        <p class="py-2 pl-2">Examining the market, we prepared a tasty, and equally nutritious Paratha Chivda for people of all ages. But after it was made, we performed all over Maharashtra to test how much people liked it and we kept getting return customers. It started with word of mouth marketing and we got an overwhelming response from the customers.
+</p>
+
+<p>In June 2017, one of our customers took our Paratha Chivda for their US-based children and grandchildren, and we still remember their demand.Different customers were getting us due to the exhibition. </p>
+        
+
+       
+       <h6  style=" text-align: center;   font-size: 200% "> " .....and the journey became tastier."</h6>
+       </div>
+ </div>  
+
+
+
+</div>
+</div>
+
+
+
+
+<div class="container-fluid2 mb-2 w3-deep-purple">
+  <div class="row">
+
+    <div class="col-lg-6 col-md-6 col-xs-6 ">
+<div id="slideshow1">
+   <div>
+     <img src="d1.png" style="height: 450px">
+   </div>
+   <div>
+     <img src="d3.png" style="height: 450px">
+   </div>
+   <div>
+      <img src="d2.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="d4.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="d7.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="d8.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="d9.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="d10.png" style="height: 450px">
+   </div>
+
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6 col-xs-6  w3-deep-purple">
+            <div class="text-congainer pt-5 " >
+        <h2 class="display-4  " style="font-family: 'Lalezar', cursive; text-align: center  ">24 February 2019</h2>
+        <p class="py-2 pl-2">As the chief guest for the inauguration, we insisted that the Chairman of Jalgaon-based Ojas Ayurveda, Dr. Mahesh G. Birla Should be at the hands of. The outline of the program was ready. We get in touch with the doctors 3-4 months in advance so that all our preparations are done so that the doctors can be given a "fixed date".
+</p>
+
+<p> The doctor gave us time. On 24th February, Dr. Birla was to address the dignitaries in the medical field at Virar and come to us.
+Finally, on 24th February 2019 that day dawned...... say our dreams or our physical and mental hardships were taking shape... The opening ceremony started on the evening of 24th February and all the people who love and believe in us Respectfully attend the request...... </p>
+        
+
+       
+       <h6  style=" text-align: center;   font-size: 200% "> " The opening ceremony started on the evening of 24th February."</h6>
+       </div>
+ </div>  
+
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="container-fluid2 mb-2 w3-deep-orange">
+  <div class="row">
+
+    <div class="col-lg-6 col-md-6 col-xs-6 ">
+<div id="slideshow2">
+   <div>
+     <img src="e1.png" style="height: 450px">
+   </div>
+   <div>
+     <img src="e3.png" style="height: 450px">
+   </div>
+   <div>
+      <img src="e2.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="e4.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="e7.png" style="height: 450px">
+   </div>
+
+<div>
+      <img src="e8.png" style="height: 450px">
+   </div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="col-lg-6 col-md-6 col-xs-6  w3-deep-orange">
+            <div class="text-congainer pt-5 " >
+        <h2 class="display-4  " style="font-family: 'Lalezar', cursive; text-align: center  ">2020</h2>
+        <p class="py-2 pl-2">We are bringing 12 flavors for you in 2020. With new concepts, new goals, new plans in mind, we are now ready... We are ready to reach your city as soon as possible, to deliver delicious and nutritious Paratha Chivda to people of all ages ...
+</p>
+
+<p>Our customers are our biggest strength. Which we are still strengthening. Fast service, good communication, and the best product is our first goal. We are constantly striving for this.
+</p>
+
+        <h6  style=" text-align: center;   font-size: 200% "> " Anantkoti enterprise is with a great idea and an innovative approach."</h6>
+       </div>
+ </div>  
+
+
+
+</div>
+</div>
+
+
+
+
+  <footer class="bg-dark pt-2 pb-2">
+  <div class="container-fluid" >
+    <div class="row">
+
+
+      
+<div class="col-lg-12 col-md-12 col-xs-12">
+<div class="socialicon " >
+  <a href="https://www.facebook.com/Anantkoti-Enterprises-1912081719052359/?ref=bookmarks">
+  <i class='fab fa-facebook-f text-primary' style='font-size:24px;'></i>
+  </a>
+  <a href="https://twitter.com/AnantkotiE">
+  <i class='fab fa-twitter text-primary' style='font-size:24px;'></i>
+  </a>
+  <a href="https://www.instagram.com/anantkotienterprises/">
+  <i class='fab fa-instagram text-white' style='font-size:24px;'></i>
+  </a>
+  <a href="https://www.linkedin.com/in/anantkoti-enterprises-275210195/">
+  <i class='fab fa-linkedin-in text-white' style='font-size:24px;color:red'></i>
+  </a>
+  <a href="https://www.youtube.com/channel/UCscY1D_p_DyddMBdeg5wZ_g">
+  <i class='fab fa-youtube' style='font-size:24px;color:red'></i>
+</a>
+</div>
+</div>
+      <div class="col-md-12 text-center text-light text-capitalize">
+        <h6>copywrite @ 2017 Anantkoti Enterprises.</h6>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<script>$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);</script>
+
+
+
+
+<script>$("#slideshow1 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow1 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow1');
+},  3000);</script>
+
+
+
+<script>$("#slideshow2 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow2 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow2');
+},  3000);</script>
+
+
+<script>$("#slideshow3 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow3 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow3');
+},  3000);</script>
+
+
+
+
+</body>
+</html>

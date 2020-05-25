@@ -1,0 +1,14 @@
+*{ margin: 0; padding: 0; font-family: 'Lilita One', cursive; box-sizing: border-box; }
+  /* Make the image fully responsive */
+ 
+
+
+  .section{
+  	width: 110%;
+  padding: 0px;
+  background: #ddd;
+  margin: 50px none;
+  display: flex;
+  justify-content: center ;
+   
+  }
